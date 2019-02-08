@@ -1,63 +1,3 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-  <title>❤登录❤</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-body {
-  margin: 0;
-  overflow: hidden;
-  text-align: center;
-}
-
-/*h1 {*/
-  /*position: fixed;*/
-  /*left: 50%;*/
-  /*transform: translate(-50%, 0);*/
-  /*bottom: 50%;*/
-  /*font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*/
-  /*border: 5px solid black;*/
-  /*padding: .5rem 2rem;*/
-  /*background: white;*/
-/*}*/
-.container{
-  transform: translate(-50%, 0);
-  bottom: 50%;
-}
-img{
-  background-color: rgba(0, 0, 0, 0.4);
-}
-</style>
-</head>
-<body>
-
-<script type="text/javascript" src="js/wmgwdw.js"></script>
-<button class="btn"><img src="./images/1.png" class="img-circle"></button>
-<!--<div class="container">-->
-  <!--<div class="row">-->
-    <!--<div class="col-xs-offset-4 col-md-offset-4 col-xs-4 col-md-4">-->
-      <!--<img src="./images/1.png" alt="..." class="img-circle">-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<div class="row">-->
-    <!--<div class="col-xs-offset-4 col-md-offset-4 col-xs-4 col-md-4">-->
-      <!--<img src="./images/1.png" alt="..." class="img-circle">-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<div class="row">-->
-    <!--<div class="col-xs-offset-4 col-md-offset-4 col-xs-4 col-md-4">-->
-      <!--<img src="./images/1.png" alt="..." class="img-circle">-->
-    <!--</div>-->
-  <!--</div>-->
-<!--</div>-->
-
-<script type="text/javascript">
 var extend = function extend(base) {
   for (var _len = arguments.length, extensions = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
     extensions[_key - 1] = arguments[_key];
@@ -164,7 +104,4 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
     scope.ctx.canvas.width = window.innerWidth;
     scope.ctx.canvas.height = window.innerHeight;
   });
-}</script>
-
-</body>
-</html>
+}
