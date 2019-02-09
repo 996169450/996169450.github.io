@@ -113,11 +113,15 @@
 <script>
     function checkdata() {
         var data = $("#data").val();
-        if(data == "20181111"){
-
+        var num = data.replace(/[^0-9]/ig,"");
+        var year = num.substring(0,4);
+        var month = num.substring(4,6);
+        var day = num.substring(6,8);
+        if(num.length == 8 && year == "2018" && month == "11" && day == "11"){
             window.location.href="./build/index.html";
         }else {
             alert("你在搞鬼，重新输！！！");
+            return;
         }
     }
 
